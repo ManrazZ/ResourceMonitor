@@ -1,0 +1,24 @@
+ResourceMonitor/
+├── .gitignore
+├── LICENSE
+├── README.md
+├── requirements.txt
+├── core/
+│   └── monitor.py
+├── metrics/
+│   └── collector.py
+├── analysis/
+│   └── analyzer.py
+├── notifications/
+│   └── notifier.py
+├── config/
+│   └── settings.py
+├── tests/
+│   └── test_monitor.py
+├── gui/
+│   └── resource_monitor_gui.py  # наш GUI код, переименованный
+├── examples/
+│   └── example_usage.py
+└── docs/
+    ├── GUI_FEATURES.md
+    └── SPECIFICATION.md
